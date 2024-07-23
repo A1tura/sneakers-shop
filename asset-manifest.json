@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/a1tura.github.io/projects/sneakers-shop/static/css/main.c800ab54.css",
-    "main.js": "/a1tura.github.io/projects/sneakers-shop/static/js/main.5bf1faee.js",
-    "index.html": "/a1tura.github.io/projects/sneakers-shop/index.html",
-    "main.c800ab54.css.map": "/a1tura.github.io/projects/sneakers-shop/static/css/main.c800ab54.css.map",
-    "main.5bf1faee.js.map": "/a1tura.github.io/projects/sneakers-shop/static/js/main.5bf1faee.js.map"
+    "main.css": "/projects/sneakers-shop/static/css/main.c800ab54.css",
+    "main.js": "/projects/sneakers-shop/static/js/main.5bf1faee.js",
+    "index.html": "/projects/sneakers-shop/index.html",
+    "main.c800ab54.css.map": "/projects/sneakers-shop/static/css/main.c800ab54.css.map",
+    "main.5bf1faee.js.map": "/projects/sneakers-shop/static/js/main.5bf1faee.js.map"
   },
   "entrypoints": [
     "static/css/main.c800ab54.css",
