@@ -1,0 +1,42 @@
+.element-text {
+    margin-right: 70px;
+    color: white;
+
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Cabin", sans-serif;
+    letter-spacing: 0.07em;
+}
+
+
+.linea {
+    position: relative;
+    display: inline-block;
+}
+
+
+.linea::after {
+    content: "";
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: -6px;
+    width: 70%;
+    height: 4px;
+    border-radius: 10px;
+    background: rgb(109,79,228);
+    background: linear-gradient(90deg, rgba(109,79,228,1) 0%, rgba(188,65,174,1) 100%);
+    background-position: 0% 0%;
+    transition: background-position 0.3s ease;
+}
+
+  /* table */
+@media (max-width: 1024px) and (min-width: 768px) {}
+
+/* phones */
+@media (max-width: 767px) {
+    .element-text {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}

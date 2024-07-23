@@ -1,0 +1,126 @@
+.image {
+    transform: rotate(20deg);
+    width: 800px;
+
+    margin-bottom: 100px;
+
+    height: 100%;
+    width: 40%;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    min-height: 50%;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 100px;
+
+    justify-content: space-between;
+
+    color: white;
+
+}
+
+.info {
+    justify-content: start;
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+
+.info-price {
+    font-family: "Black Ops One", system-ui;
+    font-size: 64px;
+}
+
+.info-description {
+    max-width: 80%;
+    font-size: 20px;
+}
+
+.buy-now {
+    font-family: "Black Ops One", system-ui;
+    font-size: 40px;
+
+    white-space: nowrap;
+    
+
+    margin-top: 5%;
+}
+
+.line {
+    position: relative;
+    display: inline-block;
+}
+
+
+.line::after {
+    content: "";
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: -10px;
+    width: 50%;
+    height: 4px;
+    border-radius: 10px;
+    background: white;
+    background-position: 0% 0%;
+    transition: background-position 0.3s ease;
+}
+
+.prev-button {
+    align-self: center;
+}
+
+.next-button {
+    align-self: center;
+}
+
+.arrow {
+    width: 70%;
+}
+
+/* table */
+@media (max-width: 1024px) and (min-width: 768px) {}
+
+/* phones */
+@media (max-width: 767px) {
+    .info-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-description {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .info-price {
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    .image {
+        width: 100%;
+        margin-bottom: 80px;
+    }
+}

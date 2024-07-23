@@ -1,0 +1,16 @@
+[
+    {
+        "price": 900,
+        "description": "The designer's unmistakably future-facing pieces focus on complex upper builds with unorthodox lacing systems for their distinctive style.",
+        "name": "sneaker2",
+        "camera": [32, 19, 10],
+        "fov": 90
+    },
+    {
+        "price": 800,
+        "description": "Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test ",
+        "name": "sneaker2",
+        "camera": [32, 19, 10],
+        "fov": 70
+    }
+]

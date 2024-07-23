@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+}
+
+.navigations-container {
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: center;
+}
+
+.navigation-element {
+    margin-left: 20px;
+}
+
+.header-logo {
+    flex: 0 1 auto;
+}
+
+.menu-icon {
+    margin-left: 5px;
+}
+
+/* table */
+@media (max-width: 1024px) and (min-width: 768px) {}
+
+/* phones */
+@media (max-width: 767px) {
+    
+    .header {
+        display: none;
+    }
+
+    .navigation {
+        flex-direction: column;
+    }
+}
