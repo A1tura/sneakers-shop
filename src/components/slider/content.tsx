@@ -26,12 +26,12 @@ export default class SliderContent extends Component<SliderContentProps> {
             <div className="content">
                 <div className="image-container">
                     <div className="prev-button">
-                        <img className="arrow" src="./assets/prev-arrow.svg" onClick={this.props.onPrevSlide} />
+                        <img className="arrow" src="/assets/prev-arrow.svg" onClick={this.props.onPrevSlide} />
                     </div>
-                    {/* <img className="image" src={this.props.img} /> */}
+                    {/* <img className="image" src={this.jprops.img} /> */}
                     <SneakerCanvas name={this.props.name} camera={this.props.camera} fov={this.props.fov} />
                     <div className="next-button" onClick={this.props.onNextSlide}>
-                        <img className="arrow" src="./assets/next-arrow.svg" />
+                        <img className="arrow" src="/assets/next-arrow.svg" />
                     </div>
                 </div>
 
